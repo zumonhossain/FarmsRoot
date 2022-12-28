@@ -16,11 +16,10 @@ $('.active-slider').owlCarousel({
             items:1
         }
     }
-})
+});
 
 
 // top-category-active
-
 $('.top-category-active').owlCarousel({
 	loop:true,
 	margin:24,
@@ -28,4 +27,5 @@ $('.top-category-active').owlCarousel({
 	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 	nav:true,
 	dots:false,
-})
+});
+
