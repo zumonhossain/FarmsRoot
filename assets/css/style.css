@@ -600,7 +600,7 @@ label {
 
 /*
 ==========================================
-     Shop List tabs Slider Css
+    Categories Products Area Css
 ==========================================
 */
 .category-product-service {
@@ -788,4 +788,303 @@ span.m-num {
 	line-height: 21px;
 	color: #FFFFFF;
 	padding: 8px 12px;
+}
+/*
+==========================================
+    Special Products Area Css
+==========================================
+*/
+.custom-special-product {
+	text-align: center;
+    width: 730px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 50px;
+    margin-top: 24px;
+}
+.special-product-image img {
+    width: 100%;
+    height: 230px;
+}
+.special-product-name a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 0px;
+	text-decoration: none;
+}
+.special-product-rating {
+    float: left;
+}
+span.special-product-div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.special-product-kg h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+.special-selling-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.special-discount-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #374151;
+}
+.special-product-increment-decrement {
+    float: left;
+    margin-right: 20px;
+}
+.special-product-btn button {
+    background: #74AB2D;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+.special-padding {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.special-product-action a {
+    color: #000;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    background: #D9D9D9;
+    display: inline-block;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    line-height: 34px;
+    margin-right: 15px;
+}
+.special-product-service{
+	cursor: pointer;
+}
+.special-product-border:hover {
+    border: 3px solid #537225;
+    border-radius: 12px;
+	padding: 19px;
+	transition: .3s;
+}
+.special-product-visible{
+	visibility: hidden;
+	opacity: 0;
+}
+.special-product-service:hover .special-product-visible{
+	visibility: visible;
+	opacity: 1;
+	transition: .3s;
+}
+span.sp-minus {
+    color: #ffffff;
+}
+span.sp-plus {
+    color: #ffffff;
+}
+/*
+==========================================
+    New Products Area Css
+==========================================
+*/
+.new-product-name a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+.new-product-rating {
+    float: left;
+    line-height: 12px;
+}
+.new-product-rating span {
+    font-size: 12px;
+}
+.new-product-review {
+    line-height: 12px;
+}
+.new-product-review span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+span.new-product-div {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.new-product-kg h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.new-selling-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.new-discount-price {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #374151;
+}
+.np-minus {
+    background: #74AB2D;
+    border-radius: 6px 0px 0px 6px;
+    width: 24px;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    line-height: 25px;
+	color: #ffffff;
+}
+.np-num {
+    background: #FFFFFF;
+    border: 1px solid #9CA3AF;
+    height: 25px;
+    padding: 0px 13px;
+    float: left;
+	line-height: 25px;
+	
+}
+.np-plus {
+    background: #74AB2D;
+    border-radius: 6px 0px 0px 6px;
+    transform: rotate(-180deg);
+    width: 24px;
+    height: 25px;
+    cursor: pointer;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+	color: #ffffff;
+}
+.new-product-btn button {
+    background: #74AB2D;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    width: 25px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+}
+.new-product-increment-decrement {
+    float: left;
+    margin-right: 20px;
+}
+.new-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+.new-product-action a {
+    background: #D9D9D9;
+    font-size: 14px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 20px;
+	color: #000000;
+}
+.new-product-action a {
+    background: #D9D9D9;
+    font-size: 14px;
+    border-radius: 20px;
+    color: #000000;
+    padding: 6px 6px;
+    display: inline-block;
+    line-height: 14px;
+}
+.new-product-action {
+    margin-top: 5px;
+}
+.new-product-name {
+    line-height: 0px;
+}
+
+
+
+
+
+.new-product-service {
+	margin-top: 34px;
+}
+.new-product-active .owl-nav div {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: -77px;
+	right: 10px;
+	background: #E5E7EB;
+	color: #9CA3AF;
+	line-height: 40px;
+  }
+
+.new-product-active .owl-item {
+    border: 3px solid #E5E7EB;
+	border-radius: 6px;
+	padding: 8px;
+}
+/* .new-product-active .owl-nav div:hover {
+	background-color: #74AB2D;
+	color: #ffffff;
+} */
+.new-product-active .owl-nav .owl-prev {
+	margin-right: 55px;
+}
+.owl-carousel .owl-item .new-product-picture img {
+	display: inherit;
+	width: 100%;
+	height: 200px;
+}
+.new-product-contents {
+	margin-top: 16px;
 }

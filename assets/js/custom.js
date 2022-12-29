@@ -29,3 +29,13 @@ $('.top-category-active').owlCarousel({
 	dots:false,
 });
 
+// new-product-active
+$('.new-product-active').owlCarousel({
+	loop:true,
+	margin:24,
+	items:1,
+	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	nav:true,
+	dots:false,
+});
+
