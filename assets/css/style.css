@@ -1200,3 +1200,42 @@ span.new-product-div {
     padding: 10px 20px;
     display: inline-block;
 }
+/*
+==========================================
+    Farmsroot milk Area Css
+==========================================
+*/
+.milk-left-side{
+	display: inline-block;
+}
+.milk-single-pic {
+    width: 92px;
+    float: left;
+    margin-right: 16px;
+}
+.milk-content {
+    padding-top: 10px;
+}
+.milk-content h5 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #537225;
+}
+.milk-content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #374151;
+    margin: 0;
+}
+.milk-middle img {
+    width: 100%;
+}
+.milk-middle {
+    margin-top: 45px;
+}
