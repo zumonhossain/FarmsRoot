@@ -191,6 +191,9 @@ label {
 .section-top-space {
 	padding-top: 64px;
 }
+.section-bottom-space {
+	padding-bottom: 64px;
+}
 /*
 ==========================================
     Header Top Css
@@ -1238,4 +1241,111 @@ span.new-product-div {
 }
 .milk-middle {
     margin-top: 45px;
+}
+
+.makes-us-different{
+	background-color: #F1F7EA;
+}
+.single-make-different {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 45px 20px;
+    text-align: center;
+}
+.different-img img {
+    width: 50px;
+    height: 50px;
+}
+.different-title h4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin-top: 35px;
+}
+.different-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #374151;
+    margin: 0;
+}
+/*
+==========================================
+    Background Section Css
+==========================================
+*/
+.bg-background-color{
+	background: #537225;
+	height: 180px;
+	overflow: hidden;
+	display: block;
+}
+/*
+==========================================
+    Customer Says Area Css
+==========================================
+*/
+.customer-says-area{
+	background: #F7F3EE;
+}
+.all-heading h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #74AB2D;
+    margin: 0;
+}
+/*
+==========================================
+     Testimonial Area Css
+==========================================
+*/
+.owl-carousel .owl-item .testimonial-picture img {
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.testimonial-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #374151;
+    padding: 0px 34px;
+}
+.testimonial-name {
+    position: relative;
+}
+.testimonial-name h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #537225;
+}
+.testimonial-left-icon {
+    color: #537225;
+    transform: rotate(-15.82deg);
+    position: absolute;
+    top: -10px;
+    right: 0;
+    left: -130px;
+    font-size: 30px;
+}
+.testimonial-text {
+    margin-top: 30px;
 }

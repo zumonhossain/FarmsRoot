@@ -457,3 +457,17 @@ if (a20 > 1) {
 }
 });
 
+
+// Testimonial owlCarousel
+	$('.testimonial-active').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    responsive:{
+          0:{
+              items:2
+          }
+    }
+})
